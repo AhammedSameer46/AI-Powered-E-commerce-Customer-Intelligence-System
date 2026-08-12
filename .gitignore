@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.pkl
+*.joblib
+
+# Large datasets
+data/raw/*.csv
+
+# Logs
+*.log
