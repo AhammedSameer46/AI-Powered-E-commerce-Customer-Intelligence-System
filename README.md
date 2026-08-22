@@ -27,3 +27,20 @@ An end-to-end machine learning pipeline that segments e-commerce customers based
 1. Clone the repository and install dependencies:
    ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn joblib
+
+
+
+   Place the raw data.csv in the root or /data directory.
+
+Execute the Jupyter Notebook sequentially to generate the cleaned data, train the model, and export the .pkl and .csv files.
+
+Open the Power BI .pbix file and refresh the data source to update the visual dashboard.
+
+Key Metrics
+Total Cleaned Records: 392,692 transactions.
+
+Customer Personas Identified: 4
+
+Predictive Model Accuracy: 99.0% (Random Forest)
+
+Primary Predictive Feature: Recency
